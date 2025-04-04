@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Time Tracking Dashboard</title>
+</head>
+<body>
+    <div class="h-screen bg-slate-950 flex justify-center items-center">
+        <div class="flex flex-col justify-center items-center">
+            <div class="bg-blue-600 text-white w-70 h-88 pb-24 pt-10 pr-24 pl-10 relative z-20 rounded-xl">
+                <img src="/images/image-jeremy.png" alt="img-jeremy" class="w-20 border-3 border-white rounded-full">
+                <p class="text-neutral-400 text-sm mt-8">Report for</p>
+                <p class="text-5xl">Jeremy Robson</p>
+            </div>
+            <div class="bg-blue-900 w-70 text-white -mt-2 py-8 pl-10 relative z-0 rounded-b-xl">
+                <ul class="space-y-2 text-neutral-400">
+                    <li id="daily" class="hover:text-white transition-all duration-300 cursor-pointer">Daily</li>
+                    <li id="weekly" class="hover:text-white transition-all duration-300 cursor-pointer">Weekly </li>
+                    <li id = "monthly" class="hover:text-white transition-all duration-300 cursor-pointer">Monthly</li>
+                </ul>
+            </div>
+        </div>
+       <div id="container" class="grid grid-cols-3 gap-3 text-white p-5">  
+    </div>
+</div>
+    
+</body>
+<script src="main.js"></script>
+</html>
